@@ -1,0 +1,123 @@
+>>> a
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    a
+NameError: name 'a' is not defined
+>>> a = 5
+>>> a
+5
+>>> a = "hello"
+>>> a
+'hello'
+>>> type(a)
+<class 'str'>
+>>> hello = 5
+\
+>>> hello
+5
+>>> type(hello)
+<class 'int'>
+>>> typr('hello')
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    typr('hello')
+NameError: name 'typr' is not defined
+>>> type('hello')
+<class 'str'>
+>>> hello = 6.66
+>>> type(hello)
+<class 'float'>
+>>> a = 999999999999999999999999999999999999999999999999999999
+>>> a
+999999999999999999999999999999999999999999999999999999
+>>> a = -234
+>>> a
+-234
+>>> a = "hi"
+>>> a
+'hi'
+>>> b = a
+>>> a = 5
+>>> a
+5
+>>> b
+'hi'
+>>> 
+
+#================================================
+
+Legal variable names:
+
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+Illegal variable names:
+
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+
+#-----------------------------------------
+
+>>> 'w' and 0
+0
+>>> 2 and 9
+9
+>>> 2 and 0
+0
+>>> 0 and 3
+0
+>>> 'e' and 't'
+'t'
+>>> 0 and 't'
+0
+>>> True and 6
+6
+>>> 5 and 4 and 3
+3
+>>> 3 or 4
+3
+>>> 0 or 3
+3
+>>> 8 and 0 or 3
+3
+>>> 3 and not 0 and 6
+6
+>>> not -
+SyntaxError: invalid syntax
+>>> not 0
+True
+>>> not 4
+False
+>>> not True
+False
+>>> not 5
+False
+>>> not 0
+True
+>>> 4 and 8 and 5 or 5
+5
+>>> 6 or 4 or 3 and not 0
+6
+>>> not 0 and not 0 and 6
+6
+>>> not True and not False
+False
+>>> 1<<4
+16
+>>> 1<<2
+4
+>>> 2<<2
+8
+>>> 5<<1
+10
+>>> 3<<2
+12
+>>> 5<20
+True
+>>> 
