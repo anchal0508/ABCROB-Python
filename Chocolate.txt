@@ -1,0 +1,36 @@
+
+amt = input("Enter a msg   : ") #user ne input diya to string me aya
+amt = int(amt) # ise hamne int me badal diya  kyuki string or int ko compare nahi kr sakte hain
+if amt >=50:
+    print ( amt // 50 , "silk")
+    amt = amt % 50
+
+if amt >= 20 :
+    print (amt //20 ," MB ")
+    amt = amt % 20
+    
+if amt >= 10 :
+    print ( amt //10 , "kk")
+    amt = amt % 10
+
+if amt >= 5 :
+    print ( amt // 5 , "dairy milk")
+    amt = amt % 5
+
+if amt >= 1:
+   print ( amt // 1 , " melody")
+   amt = amt % 1
+
+
+   
+''' How to take input from user 
+a = input()
+print("You have enterred ",a)
+
+'''
+
+''' Data type kese badalte hain 
+a = int (input("Number enter karo"))
+print("You have enterred ",a)
+
+'''
