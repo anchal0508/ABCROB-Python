@@ -1,0 +1,14 @@
+
+age =10
+if age<=10:
+    print ("not eligible for mobile")
+
+ 
+if age<15:
+     print ("not eligible for cycle")
+
+  
+if age <= 20:
+     print ("not eligible for car")
+
+    
