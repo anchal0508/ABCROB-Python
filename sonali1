@@ -1,0 +1,17 @@
+b=0
+
+user =int(input ( )) 
+if user >b:
+    b= user
+
+
+user =int(input ( )) 
+if user >b:
+    b= user
+
+
+user =int(input ( )) 
+if user >b:
+    b= user
+
+print (b)
